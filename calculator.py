@@ -1,4 +1,4 @@
-import math
+# https://github.com/aanelluri/lab11-AN-AT
 
 def add(a,b):
     return a+b
@@ -14,13 +14,11 @@ def div(a,b):
     else:
         return a/b
 
-def log(a,b):
-    if b <= 0:
-        raise ValueError("base must be positive")
-    else:
-        return math.log(a,b)
+def log(a, b):
+    if a <= 0 or a == 1 or b <= 0:
+        raise ValueError("log: base must be > 0 and != 1, and argument must be > 0")
+    return math.log(b, a)
 
-def exp(a,b):
+
+def exp(a, b):
     return a ** b
-
-
