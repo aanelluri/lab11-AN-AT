@@ -1,4 +1,7 @@
-# https://github.com/aanelluri/lab11-AN-AT
+#https://github.com/aanelluri/lab11-AN-AT
+# Partner 1: Anish Nelluri
+# Partner 2: Alexander Tariam
+
 
 import math
 
