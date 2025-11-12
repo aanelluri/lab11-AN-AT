@@ -1,3 +1,8 @@
+#https://github.com/aanelluri/lab11-AN-AT
+# Partner 1: Anish Nelluri
+# Partner 2: Alexander Tariam
+
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
