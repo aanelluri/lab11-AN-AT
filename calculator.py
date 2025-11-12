@@ -32,7 +32,7 @@ def div(a, b):
 
 def log(a, b):
     if a <= 0 or a == 1 or b <= 0:
-        raise ValueError("log: base must be > 0 and != 1, and argument must be > zero")
+        raise ValueError("log: base must be > 0, and argument must be > zero")
     return math.log(b, a)
 
 
