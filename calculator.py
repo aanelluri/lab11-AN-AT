@@ -1,5 +1,7 @@
 # https://github.com/aanelluri/lab11-AN-AT
 
+import math
+
 def add(a,b):
     return a+b
 
