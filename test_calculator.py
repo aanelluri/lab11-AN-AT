@@ -54,7 +54,7 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             logarithm(2, 0)
         # a valid case to ensure function works
-        self.assertAlmostEqual(log(2, 8), 3.0)
+        self.assertAlmostEqual(logarithm(2, 8), 3.0)
 
     def test_hypotenuse(self):
         self.assertAlmostEqual(hypotenuse(3, 4), 5.0)
